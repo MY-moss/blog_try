@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/blog_dist/',
+  base: "/blog_try/",
   head: [["link", { rel: "icon", href: "../assets/logo2.jpg" }]],
   title: "moyangspace",   //左上角标题
   description: "A VitePress Site",
