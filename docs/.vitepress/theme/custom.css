@@ -1,0 +1,47 @@
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #5f4ef7 30%, #ff7500);
+
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #c53beb 50%, #ff7500 50%);
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+}
+
+
+/* 该文件配置网站的文字  图标 等等 一系列dom元素的样式文件 */
+:root {
+
+    /* botton按钮 */
+    /* --vp-button-brand-border: #81634b; */
+    /* 按钮文本颜色 */
+    --vp-button-brand-text: #ffffff;
+    /* 按钮背景颜色 */
+    --vp-button-brand-bg: #b152f5;
+  
+  /*#00FFEE*/
+    /* 鼠标悬停的效果之后的样式 */
+    --vp-button-brand-hover-border:#ff7500;
+    --vp-button-brand-hover-text:#3d3b4f;
+    --vp-button-brand-hover-bg: #ff7500;
+  
+    --vp-button-brand-active-border: #ff7500;
+  
+    /* 主题基色 */
+    --vp-c-brand: #ff7500;
+    /* 白色模式 主题基色 */
+    --vp-c-brand-light: #ff7500;
+    /* 黑色模式 主题基色 */
+    --vp-c-brand-dark: #ff7500;
+  }
+  
